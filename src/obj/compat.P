@@ -1,0 +1,8 @@
+obj/compat.o: tor/compat.c tor/tor_compat.h tor/orconfig.h \
+ tor/orconfig_linux.h tor/torint.h tor/testsupport.h tor/torlog.h \
+ tor/tor_util.h tor/di_ops.h tor/container.h tor/address.h tor/sandbox.h \
+ tor/strlcpy.c tor/strlcat.c
+tor/compat.c tor/tor_compat.h tor/orconfig.h :
+ tor/orconfig_linux.h tor/torint.h tor/testsupport.h tor/torlog.h :
+ tor/tor_util.h tor/di_ops.h tor/container.h tor/address.h tor/sandbox.h :
+ tor/strlcpy.c tor/strlcat.c :

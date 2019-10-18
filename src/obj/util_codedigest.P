@@ -1,0 +1,6 @@
+obj/util_codedigest.o: tor/util_codedigest.c tor/tor_util.h \
+ tor/orconfig.h tor/orconfig_linux.h tor/torint.h tor/tor_compat.h \
+ tor/testsupport.h tor/di_ops.h tor/common_sha1.i
+tor/util_codedigest.c tor/tor_util.h :
+ tor/orconfig.h tor/orconfig_linux.h tor/torint.h tor/tor_compat.h :
+ tor/testsupport.h tor/di_ops.h tor/common_sha1.i :

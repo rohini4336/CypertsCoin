@@ -1,0 +1,16 @@
+obj/rendcommon.o: tor/rendcommon.c tor/or.h tor/orconfig.h \
+ tor/orconfig_linux.h tor/torint.h tor/crypto.h tor/testsupport.h \
+ tor/tortls.h tor/tor_compat.h tor/torlog.h tor/container.h \
+ tor/tor_util.h tor/di_ops.h tor/torgzip.h tor/address.h \
+ tor/compat_libevent.h tor/ht.h tor/replaycache.h tor/crypto_curve25519.h \
+ tor/tor_queue.h tor/circuitbuild.h tor/config.h tor/rendclient.h \
+ tor/rendcommon.h tor/rendmid.h tor/rendservice.h tor/rephist.h \
+ tor/routerlist.h tor/routerparse.h
+tor/rendcommon.c tor/or.h tor/orconfig.h :
+ tor/orconfig_linux.h tor/torint.h tor/crypto.h tor/testsupport.h :
+ tor/tortls.h tor/tor_compat.h tor/torlog.h tor/container.h :
+ tor/tor_util.h tor/di_ops.h tor/torgzip.h tor/address.h :
+ tor/compat_libevent.h tor/ht.h tor/replaycache.h tor/crypto_curve25519.h :
+ tor/tor_queue.h tor/circuitbuild.h tor/config.h tor/rendclient.h :
+ tor/rendcommon.h tor/rendmid.h tor/rendservice.h tor/rephist.h :
+ tor/routerlist.h tor/routerparse.h :

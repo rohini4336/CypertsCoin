@@ -1,0 +1,6 @@
+obj/compat_libevent.o: tor/compat_libevent.c tor/orconfig.h \
+ tor/orconfig_linux.h tor/tor_compat.h tor/torint.h tor/testsupport.h \
+ tor/compat_libevent.h tor/tor_util.h tor/di_ops.h tor/torlog.h
+tor/compat_libevent.c tor/orconfig.h :
+ tor/orconfig_linux.h tor/tor_compat.h tor/torint.h tor/testsupport.h :
+ tor/compat_libevent.h tor/tor_util.h tor/di_ops.h tor/torlog.h :

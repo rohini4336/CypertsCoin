@@ -1,0 +1,6 @@
+obj/mempool.o: tor/mempool.c tor/orconfig.h tor/orconfig_linux.h \
+ tor/torint.h tor/crypto.h tor/testsupport.h tor/mempool.h tor/tor_util.h \
+ tor/tor_compat.h tor/di_ops.h tor/torlog.h
+tor/mempool.c tor/orconfig.h tor/orconfig_linux.h :
+ tor/torint.h tor/crypto.h tor/testsupport.h tor/mempool.h tor/tor_util.h :
+ tor/tor_compat.h tor/di_ops.h tor/torlog.h :

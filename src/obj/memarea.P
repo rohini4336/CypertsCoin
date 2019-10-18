@@ -1,0 +1,6 @@
+obj/memarea.o: tor/memarea.c tor/orconfig.h tor/orconfig_linux.h \
+ tor/memarea.h tor/tor_util.h tor/torint.h tor/tor_compat.h \
+ tor/testsupport.h tor/di_ops.h tor/torlog.h
+tor/memarea.c tor/orconfig.h tor/orconfig_linux.h :
+ tor/memarea.h tor/tor_util.h tor/torint.h tor/tor_compat.h :
+ tor/testsupport.h tor/di_ops.h tor/torlog.h :

@@ -1,0 +1,26 @@
+obj/connection.o: tor/connection.c tor/or.h tor/orconfig.h \
+ tor/orconfig_linux.h tor/torint.h tor/crypto.h tor/testsupport.h \
+ tor/tortls.h tor/tor_compat.h tor/torlog.h tor/container.h \
+ tor/tor_util.h tor/di_ops.h tor/torgzip.h tor/address.h \
+ tor/compat_libevent.h tor/ht.h tor/replaycache.h tor/crypto_curve25519.h \
+ tor/tor_queue.h tor/buffers.h tor/channel.h tor/circuitmux.h \
+ tor/channeltls.h tor/circuitbuild.h tor/circuitlist.h tor/circuituse.h \
+ tor/config.h tor/connection.h tor/connection_edge.h tor/connection_or.h \
+ tor/control.h tor/cpuworker.h tor/directory.h tor/dirserv.h tor/dns.h \
+ tor/dnsserv.h tor/entrynodes.h tor/ext_orport.h tor/geoip.h \
+ tor/onion_main.h tor/policies.h tor/reasons.h tor/relay.h \
+ tor/rendclient.h tor/rendcommon.h tor/rephist.h tor/router.h \
+ tor/transports.h tor/routerparse.h
+tor/connection.c tor/or.h tor/orconfig.h :
+ tor/orconfig_linux.h tor/torint.h tor/crypto.h tor/testsupport.h :
+ tor/tortls.h tor/tor_compat.h tor/torlog.h tor/container.h :
+ tor/tor_util.h tor/di_ops.h tor/torgzip.h tor/address.h :
+ tor/compat_libevent.h tor/ht.h tor/replaycache.h tor/crypto_curve25519.h :
+ tor/tor_queue.h tor/buffers.h tor/channel.h tor/circuitmux.h :
+ tor/channeltls.h tor/circuitbuild.h tor/circuitlist.h tor/circuituse.h :
+ tor/config.h tor/connection.h tor/connection_edge.h tor/connection_or.h :
+ tor/control.h tor/cpuworker.h tor/directory.h tor/dirserv.h tor/dns.h :
+ tor/dnsserv.h tor/entrynodes.h tor/ext_orport.h tor/geoip.h :
+ tor/onion_main.h tor/policies.h tor/reasons.h tor/relay.h :
+ tor/rendclient.h tor/rendcommon.h tor/rephist.h tor/router.h :
+ tor/transports.h tor/routerparse.h :

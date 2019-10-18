@@ -1,0 +1,2 @@
+obj/config_codedigest.o: tor/config_codedigest.c tor/or_sha1.i
+tor/config_codedigest.c tor/or_sha1.i :

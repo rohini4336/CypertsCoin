@@ -1,0 +1,6 @@
+obj/sandbox.o: tor/sandbox.c tor/orconfig.h tor/orconfig_linux.h \
+ tor/sandbox.h tor/torint.h tor/torlog.h tor/tor_compat.h \
+ tor/testsupport.h tor/tor_util.h tor/di_ops.h tor/tor_queue.h
+tor/sandbox.c tor/orconfig.h tor/orconfig_linux.h :
+ tor/sandbox.h tor/torint.h tor/torlog.h tor/tor_compat.h :
+ tor/testsupport.h tor/tor_util.h tor/di_ops.h tor/tor_queue.h :

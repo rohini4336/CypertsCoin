@@ -1,0 +1,8 @@
+obj/tortls.o: tor/tortls.c tor/orconfig.h tor/orconfig_linux.h \
+ tor/crypto.h tor/torint.h tor/testsupport.h tor/tortls.h \
+ tor/tor_compat.h tor/tor_util.h tor/di_ops.h tor/torlog.h \
+ tor/container.h tor/./ciphers.inc
+tor/tortls.c tor/orconfig.h tor/orconfig_linux.h :
+ tor/crypto.h tor/torint.h tor/testsupport.h tor/tortls.h :
+ tor/tor_compat.h tor/tor_util.h tor/di_ops.h tor/torlog.h :
+ tor/container.h tor/./ciphers.inc :

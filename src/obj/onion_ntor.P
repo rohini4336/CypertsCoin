@@ -1,0 +1,8 @@
+obj/onion_ntor.o: tor/onion_ntor.c tor/orconfig.h tor/orconfig_linux.h \
+ tor/crypto.h tor/torint.h tor/testsupport.h tor/onion_ntor.h \
+ tor/crypto_curve25519.h tor/di_ops.h tor/torlog.h tor/tor_compat.h \
+ tor/tor_util.h
+tor/onion_ntor.c tor/orconfig.h tor/orconfig_linux.h :
+ tor/crypto.h tor/torint.h tor/testsupport.h tor/onion_ntor.h :
+ tor/crypto_curve25519.h tor/di_ops.h tor/torlog.h tor/tor_compat.h :
+ tor/tor_util.h :

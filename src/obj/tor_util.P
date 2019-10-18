@@ -1,0 +1,8 @@
+obj/tor_util.o: tor/tor_util.c tor/orconfig.h tor/orconfig_linux.h \
+ tor/tor_util.h tor/torint.h tor/tor_compat.h tor/testsupport.h \
+ tor/di_ops.h tor/torlog.h tor/crypto.h tor/container.h tor/address.h \
+ tor/sandbox.h tor/backtrace.h
+tor/tor_util.c tor/orconfig.h tor/orconfig_linux.h :
+ tor/tor_util.h tor/torint.h tor/tor_compat.h tor/testsupport.h :
+ tor/di_ops.h tor/torlog.h tor/crypto.h tor/container.h tor/address.h :
+ tor/sandbox.h tor/backtrace.h :

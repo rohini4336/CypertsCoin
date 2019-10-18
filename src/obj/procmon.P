@@ -1,0 +1,6 @@
+obj/procmon.o: tor/procmon.c tor/procmon.h tor/tor_compat.h \
+ tor/orconfig.h tor/orconfig_linux.h tor/torint.h tor/testsupport.h \
+ tor/compat_libevent.h tor/torlog.h tor/tor_util.h tor/di_ops.h
+tor/procmon.c tor/procmon.h tor/tor_compat.h :
+ tor/orconfig.h tor/orconfig_linux.h tor/torint.h tor/testsupport.h :
+ tor/compat_libevent.h tor/torlog.h tor/tor_util.h tor/di_ops.h :

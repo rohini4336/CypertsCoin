@@ -1,0 +1,6 @@
+obj/json_spirit_writer.o: json/json_spirit_writer.cpp \
+ json/json_spirit_writer.h json/json_spirit_value.h \
+ json/json_spirit_writer_template.h
+json/json_spirit_writer.cpp :
+ json/json_spirit_writer.h json/json_spirit_value.h :
+ json/json_spirit_writer_template.h :

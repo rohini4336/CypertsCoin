@@ -1,0 +1,8 @@
+obj/crypto.o: tor/crypto.c tor/orconfig.h tor/orconfig_linux.h \
+ tor/crypto.h tor/torint.h tor/testsupport.h tor/torlog.h \
+ tor/tor_compat.h tor/aes.h tor/tor_util.h tor/di_ops.h tor/container.h \
+ tor/sandbox.h
+tor/crypto.c tor/orconfig.h tor/orconfig_linux.h :
+ tor/crypto.h tor/torint.h tor/testsupport.h tor/torlog.h :
+ tor/tor_compat.h tor/aes.h tor/tor_util.h tor/di_ops.h tor/container.h :
+ tor/sandbox.h :
